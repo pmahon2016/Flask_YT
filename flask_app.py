@@ -4,7 +4,7 @@ from flask_wtf import FlaskForm
 from wtforms import SubmitField, StringField, PasswordField
 from wtforms.validators import data_required, length
 
-app = Flask("_name__")
+app = Flask("__name__")
 app.config['SECRET_KEY'] = 'thisismysecretkey'
 formData = {}
 
